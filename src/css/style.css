@@ -1,31 +1,34 @@
-tml{
-    font-size: 62.5%;
-}
 body{
     height: 100vh;
 }
 /*HEADER*/
 .header{
-    background-color: var(--backgrond-color-top);
     padding: 56px 165px;
     display: flex;
     justify-content: space-between;  
+    background-color: var(--backgrond-color-top);
 }
-.apply a{
-    font-family: texts;
+.header .header-apply-link a{
+    font-family: textos;
     color: var(--backgrond-color-bot);
-    font-style: normal;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 18px;
     line-height: 178%;
     letter-spacing: -0.18px;
-    color: var(--backgrond-color-bot);
-    border-bottom: 5px solid var( --primary-btn-color);
-    transition: 1s ease-in-out;
+    color: var(--backgrond-color-bot); 
+    transition: 1s ease-in-out; 
+    padding: 3px;
+    border-bottom: 3px solid var(--primary-btn-color);
 }
-.apply a:hover{
+.header .header-apply-link a:hover{
     color: var(--primary-btn-color);
 }
+.header .header-image img{
+    height: 24.61px;
+}
+
+
+
 .main{
     display: flex;
     flex-direction: column;
