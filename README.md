@@ -10,4 +10,5 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
   <li><b>18/06/2023.1:</b> layout básico pronto, próximo passo, responsividade</li>
   <li><b>18/06/2023.2:</b> inicio da responsividade, cabelaho pronto</li>
   <li><b>20/06/2023.1:</b> resolvida primeira parte do site e mais um pouco da responsividade</li>
+  <li><b>20/06/2023.2:</b> responsividade do topo resolvida</li>
 </ul>
