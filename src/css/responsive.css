@@ -5,6 +5,32 @@
     .header .header-apply-link a{
         font-size: 16px;
     }
+    .main .hero{
+        height: 470px;
+       grid-template-columns:1fr 500px 1fr;
+    }
+    .hero .left img{
+        left: -220px;
+    }
+    .hero .right img{
+        right: -90px; 
+    }
+    .hero .center{
+        top:40px
+    }
+    .hero .center h1{
+        font-family: title;
+        color: var(--backgrond-color-bot);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        text-align: center;
+    }
+    .hero .center img{
+        margin-top: -65gitpx;
+        width: 514px;
+        height: 296px;
+    }
 }
 @media(max-width:375px){
     .header{

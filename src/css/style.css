@@ -46,7 +46,9 @@ body{
     grid-area: left;
 }
 .hero .left img{
-    position: absolute;
+    top:116px;
+    left: -125px;
+    position: absolute; 
 }
 .hero .center{
     grid-area: center;
@@ -63,6 +65,11 @@ body{
     font-size: 80px;
     text-align: center;
 }
+.hero .center u{
+    text-underline-position: under;
+    text-decoration-color: var(--primary-btn-color);
+    text-decoration-thickness:5px;
+}
 .hero .center .btn-learn-more{
     background-color: var(--primary-btn-color);
     margin: 37px 0px 50px 0px;
@@ -73,13 +80,17 @@ body{
     justify-content: center;
 }
 .btn-learn-more a{
-    
     color: var(--backgrond-color-top);
     font-family: texts;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 178%;
+}
+.hero .center img{
+    margin-top: -35px;
+    width: 767px;
+    height: 441px;
 }
 .hero .center .front-image{
     position: absolute;
@@ -88,9 +99,10 @@ body{
 }
 .hero .right img{
     position: absolute;
-    top: 400px;
+    top: 350px;
     right: -55px; 
 }
+
 .ornament{
     height: 70px;
     position: relative;
