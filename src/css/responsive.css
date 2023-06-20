@@ -6,7 +6,7 @@
         font-size: 16px;
     }
     .main .hero{
-        height: 470px;
+       height: 470px;
        grid-template-columns:1fr 500px 1fr;
     }
     .hero .left img{
@@ -19,15 +19,13 @@
         top:40px
     }
     .hero .center h1{
-        font-family: title;
-        color: var(--backgrond-color-bot);
         font-style: normal;
         font-weight: 600;
         font-size: 60px;
         text-align: center;
     }
     .hero .center img{
-        margin-top: -65gitpx;
+        margin-top: -65px;
         width: 514px;
         height: 296px;
     }
@@ -39,4 +37,29 @@
     .header .header-apply-link a{
         font-size: 16px;
     }
+    .main .hero{
+        height: 350px;
+        grid-template-columns:1fr 340px 1fr;
+    }
+    .hero .left img{
+        visibility: hidden;
+    }
+    .hero .right img{
+        visibility: hidden;
+    }
+    .hero .center h1{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        text-align: center;
+    }
+    .ornament .curve{
+        border-radius: 20%;
+    }
+    .hero .center img{
+        margin-top: -120px;
+        width: 320px;
+        height: 184px;
+    }
+
 }
