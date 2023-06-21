@@ -26,9 +26,6 @@ body{
 .header .header-image img{
     height: 24.61px;
 }
-
-
-
 .main{
     display: flex;
     flex-direction: column;
@@ -98,11 +95,10 @@ body{
     z-index: 1;
 }
 .hero .right img{
-    position: absolute;
-    top: 350px;
-    right: -55px; 
+    top: 200px;
+    right:-270px;
+    position: relative; 
 }
-
 .ornament{
     height: 70px;
     position: relative;
@@ -121,7 +117,9 @@ body{
 .ornament#hero {
     background-color: var(--backgrond-color-mid);
 }
+
 .services-conteiner{
+    margin-top: 100px;
     background-color: var(--backgrond-color-mid);
 }
 .services{

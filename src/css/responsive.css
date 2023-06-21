@@ -13,7 +13,7 @@
         left: -220px;
     }
     .hero .right img{
-        right: -90px; 
+        right: -70px; 
     }
     .hero .center{
         top:40px
@@ -28,6 +28,13 @@
         margin-top: -65px;
         width: 514px;
         height: 296px;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .service{
+        background-color: brown;
+        flex-direction: row;
     }
 }
 @media(max-width:375px){
