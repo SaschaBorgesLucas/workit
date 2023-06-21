@@ -30,11 +30,21 @@
         height: 296px;
     }
     .services{
+        margin:171px 165px;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .service{
-        background-color: brown;
         flex-direction: row;
+        width: 600px;
+        height: 97px;
+        
+    }
+
+    .service-number{
+        width: 46px;
+        height: 46px;
     }
 }
 @media(max-width:375px){
