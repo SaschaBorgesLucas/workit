@@ -117,12 +117,13 @@ body{
 .ornament#hero {
     background-color: var(--backgrond-color-mid);
 }
-
 .services-conteiner{
-    margin-top: 100px;
     background-color: var(--backgrond-color-mid);
 }
+
 .services{
+    position: relative;
+    top: 104px;
     display: flex;
     margin:171px 165px;
 }
