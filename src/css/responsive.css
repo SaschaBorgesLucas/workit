@@ -73,6 +73,57 @@
         border: solid 2px;
         margin-right: 32px;
     }
+    .founder{
+        height: 570px;
+        margin: 107px 165px 0px 39px;
+    }
+    .founder .founder-image img{
+        margin: 0px;
+        align-self: flex-start;
+        width: 281px;
+        height: 281px;
+    }
+    .founder .founder-message{
+        padding: 48px 56px;
+        width: 514px;
+        height: 375px;
+        background-color: var(--backgrond-color-top);
+        position: relative;
+        top: -150px;
+        left: 180px;
+    }
+    .founder .founder-message h2{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+    }
+    .founder .founder-message p{
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-family: Manrope;
+        line-height: 28px;
+    }
+    .founder .btn#apply-to-acess{
+        background-color: var(--primary-btn-color);
+        width: 172px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .founder .image-pattern3{
+        position: relative;
+        top: -70px;
+        left: 230px;
+    }
+    .footer{
+        top:-800px;
+        margin: 0px 162px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
 }
 
 
