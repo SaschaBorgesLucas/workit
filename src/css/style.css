@@ -167,7 +167,6 @@ body{
 .ornament .curve#services{
     background-color: var(--backgrond-color-mid);
 }
-
 .founder{
     margin: 107px 165px;
 }
@@ -217,7 +216,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .footer .logo{
     margin-bottom: 56px;
