@@ -34,7 +34,6 @@
         margin-top: 72px;
     }
     .service{
-        
         align-self: center;
         flex-direction: row;
         width: 600px;
@@ -179,7 +178,9 @@
         border: solid 2px;
         color: var(--backgrond-color-top);
         margin: 0px;
+        margin-bottom: 40px;
         top: 5px;
+
     }
     .services{
         flex-direction: column; 
@@ -197,10 +198,16 @@
         font-weight: 600;
         line-height: 36px;
     }
+
+    .service .service-description{
+        width: 303px;
+        margin-bottom: 40px;
+    }
     .service .service-description p{
-        font-family: texts;
+        color: var(--davys-grey, #584D62);
         text-align: center;
         font-size: 16px;
+        font-family: Manrope;
         line-height: 28px;
     }
 
