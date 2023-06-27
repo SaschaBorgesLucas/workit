@@ -166,8 +166,14 @@
     .ornament .curve#hero{
         border-radius: 20%;
     }
+    .services{
+        position: relative;
+        top: 104px;
+        display: flex;
+        margin:100px 165px;
+    }
     .services-conteiner{
-        background-color: var(--backgrond-color-mid);
+        background-color:var(--backgrond-color-mid);
         width: 375px;
     }
     .service-number{
@@ -180,7 +186,6 @@
         margin: 0px;
         margin-bottom: 40px;
         top: 5px;
-
     }
     .services{
         flex-direction: column; 
@@ -197,7 +202,6 @@
         font-weight: 600;
         line-height: 36px;
     }
-
     .service .service-description{
         width: 303px;
         height: auto;
@@ -209,5 +213,7 @@
         font-family: Manrope;
         line-height: 28px;
     }
-
+    .founder-image{
+        background-color: red;
+    }
 }
