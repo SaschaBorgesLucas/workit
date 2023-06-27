@@ -187,8 +187,7 @@
     }
     .service{
         flex-direction: column;
-        width: 375px;
-      
+        width: 375px;  
     }
     .service .service-description h3{
         color: var(--dark-purple, #24053E);
@@ -201,7 +200,7 @@
 
     .service .service-description{
         width: 303px;
-        margin-bottom: 40px;
+        height: auto;
     }
     .service .service-description p{
         color: var(--davys-grey, #584D62);
