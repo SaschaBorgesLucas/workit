@@ -136,6 +136,9 @@
 
 
 @media(max-width:375px){
+    *{  
+        max-width: 375px;
+    }
     .header{
         padding: 37px 16px;
     }
@@ -213,7 +216,45 @@
         font-family: Manrope;
         line-height: 28px;
     }
+    .founder{
+        width: 375px;
+        height: auto;
+        margin: 100px 0px 74px 0px;
+        
+    }
     .founder-image{
-        background-color: red;
+        height: 281px;
+        width: 281px;
+        margin: 0px 47px;
+    }
+
+    .founder .founder-message{
+        flex-direction: column; 
+        width: 343px;
+        height: 375px;
+        top:-55px;
+        right: 16px;
+        left: 16px;
+        padding: 31px 25px;
+    }
+    .founder .founder-message h2{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 32px;
+        font-family: Fraunces 144pt;
+        font-weight: 600;
+        line-height: 48px;
+    }
+    .founder .founder-message p{
+        color: var(--white, #FFF);
+        text-align: center;
+        font-size: 16px;
+        font-family: Manrope;
+        line-height: 28px;
+    }
+    .founder .image-pattern3{
+        left: 0px;
+        right: 0px;
+        visibility:hidden;
     }
 }
