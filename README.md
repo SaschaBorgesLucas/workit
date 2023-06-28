@@ -6,9 +6,15 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
 
 
 <h2>Padrões do projeto</h2>
-  No inicio não existiam padrões para os commits, mas conforme fui evolunindo no projeto, senti necessidade de criar alguns padrões.
-  <b>Nome dos commit</b>: o nome de todo commit minimamente relevante passou a feito da seguinte forma dd/mm/aaaa.i - descrição se necessário.
-  neste caso o 'i' corresponde a modificação que começa em 1 a cada dia.
+  No inicio não existiam padrões para os commits, mas conforme fui evolunindo no projeto, senti necessidade de criar alguns padrões.<br>
+   📃<b>Nome dos commit</b>: o nome de todo commit minimamente relevante passou a feito da seguinte forma <b>dd/mm/aaaa.i - descrição se necessário</b>.
+  Neste caso o 'i' corresponde a modificação que começa em 1 a cada dia. os commits fora desta regra, são apenas comits que alteram pequenas coisas como a correção de algum erro de digitação;
+  📃<b>Nomes das zonas da página:</b> na etapa de refatoramento e correção vou nomear o site em zonas:<br>
+  <ul>
+    <li>header, tudo que v</li>
+  </ul>
+  
+  <hr>
   
 
 <ul>
