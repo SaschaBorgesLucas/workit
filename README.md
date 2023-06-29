@@ -37,5 +37,6 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
   <br>-foi criada a branch revisao, para se algo der muito errado eu não perder meu minimo produto viável
   <br>- Os arquivos de responsividade estavam ficando grandes, e isso tornava chato de fazer a manutenção então dividi em dois arquivos. 
   <br>-Troquei o nome do arquivo CSS responsável pela animação dos botões, para buttons.css como sinto que posso reutilizar estes botões animados em outros projetos, fica mais fácil de identificá-los assim, além disso vai facilitar a manutenção
-  <br>-alguns elementos foram retirados de div desnecessárias</li>
+  <br>-alguns elementos foram retirados de div desnecessárias
+  <br>-todos os elementos estão ganhando alt e aqueles que tem link estão ganhando um link</li>
 </ul>
