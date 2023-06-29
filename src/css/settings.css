@@ -1,10 +1,18 @@
 :root{
+    --colorDarker:#24053E;
+    --coloBright:#44FFA1;
+    /*Variaveis antigas*/
     --backgrond-color-top:#24053E;
     --backgrond-color-mid:#FCF8FF;
     --backgrond-color-bot:#FFFF;
     --primary-btn-color:#44FFA1;
     --secondary-btn-color:#584D62;
 }
+@font-face{
+    font-family: fontSansSerif;
+    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+}
+
 @font-face{
     font-family: title;
     src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);

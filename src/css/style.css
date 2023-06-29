@@ -1,13 +1,34 @@
-body{
-    height: 100vh;
+
+.master{
+    max-width: 1440px;
+    height: 2494px;
+    background-color: aqua;
 }
-/*HEADER*/
-.header{
-    padding: 56px 165px;
+.master .header{
+    background-color:var(--colorDarker);
+    padding-bottom:0px;
+    padding: 57px 165px 0px 57px;
     display: flex;
     justify-content: space-between;  
-    background-color: var(--backgrond-color-top);
+} 
+.master .header .headerApplyLink a{
+    font-family: fontSansSerif;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    transition: 0.3s ease-in-out; 
+    padding: 3px;
+    border-bottom: 3px solid var(--coloBright);
 }
+.master .header .headerApplyLink a:hover{
+    color: var(--coloBright);
+}
+
+
+/*HEADER*/
+/*
 .header .header-apply-link a{
     font-family: textos;
     color: var(--backgrond-color-bot);
@@ -219,7 +240,7 @@ body{
     color: var(--backgrond-color-top);
     font-size: 28px;
     padding: 28px;
-}
+}*/
 
 
 /*BOTões https://designofweb.tumblr.com/post/142371529309/css-buttons

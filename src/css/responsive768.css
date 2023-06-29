@@ -1,0 +1,137 @@
+@media(max-width:768px){
+    .master{
+        width: 768px;
+        height: 2254px;    
+        background-color: aqua;
+    }
+    .master .header{
+        padding: 37px 39px 0px 37px;
+    }
+    .master .header .headerApplyLink a{
+        font-size: 16px;
+        letter-spacing: -0.16px;
+    }
+
+
+   /*  .header .header-apply-link a{
+        font-size: 16px;
+    }
+    .main .hero{
+       height: 470px;
+       grid-template-columns:1fr 500px 1fr;
+    }
+    .hero .left img{
+        left: -220px;
+    }
+    .hero .right img{
+        right: -70px; 
+    }
+    .hero .center{
+        top:40px
+    }
+    .hero .center h1{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        text-align: center;
+    }
+    .hero .center img{
+        margin-top: -65px;
+        width: 514px;
+        height: 296px;
+    }
+    .services{
+        flex-direction: column; 
+        margin-top: 72px;
+    }
+    .service{
+        align-self: center;
+        flex-direction: row;
+        width: 600px;
+        margin-bottom:52px;
+        
+    }
+    .service-description h3{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 16px;
+        text-align: left;
+    }
+    .service-description{
+        width: 468px;
+        height: 72px;
+    }
+    .service-description p{
+        font-family: texts;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .service-number{
+        width: 46px;
+        height: 46px;
+    }
+    .service-number{
+        position: relative;
+        top: 50px;
+        height: 48px;
+        width: 48px;
+        Font-size: 2rem;
+        border-radius: 100%;
+        border: solid 2px;
+        margin-right: 32px;
+    }
+    .founder{
+        height: 570px;
+        margin: 107px 165px 0px 39px;
+    }
+    .founder .founder-image img{
+        margin: 0px;
+        align-self: flex-start;
+        width: 281px;
+        height: 281px;
+    }
+    .founder .founder-message{
+        padding: 48px 56px;
+        width: 514px;
+        height: 375px;
+        background-color: var(--backgrond-color-top);
+        position: relative;
+        top: -150px;
+        left: 180px;
+    }
+    .founder .founder-message h2{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 56px;
+    }
+    .founder .founder-message p{
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-family: Manrope;
+        line-height: 28px;
+    }
+    .founder .btn#apply-to-acess{
+        background-color: var(--primary-btn-color);
+        width: 172px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .founder .image-pattern3{
+        position: relative;
+        top: -70px;
+        left: 230px;
+    }
+    .footer{
+        top:-800px;
+        margin: 0px 162px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    } */
+}
