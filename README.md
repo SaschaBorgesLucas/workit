@@ -7,7 +7,7 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
 
 <h2>Padrões do projeto</h2>
   No inicio não existiam padrões para os commits, mas conforme fui evolunindo no projeto, senti necessidade de criar alguns padrões.<br>
-  📃<b>Nome dos commit</b>: o nome de todo commit minimamente relevante passou a feito da seguinte forma <b>dd/mm/aaaa.i - descrição se necessário</b>.<br>
+  📃<b>Nome dos commit</b>: o nome de todo commit minimamente relevante passou a feito da seguinte forma <b>dd/mm/aaaa.i - branch - autor: descrição se necessário</b>.<br>
   Neste caso o 'i' corresponde a modificação que começa em 1 a cada dia. os commits fora desta regra, são apenas comits que alteram pequenas coisas como a correção de algum erro de digitação;<br>
   📃<b>Nomes das zonas da página:</b> na etapa de refatoramento e correção vou nomear o site em zonas:<br>
   <ul>
@@ -17,7 +17,10 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
     <li><b>bot:</b></li>
     <li><b>footer:</b>bar o que está compreendido na tag footer</li>
   </ul>
+    📃<b>Nome das variáveis:</b> o que é + descrição<br>
+    por exemplo: colorDarker, para uma cor mais escura ou numberCircleRadius, para um raio numerico de um circulo; stringName, para um nome
   <hr>
+
   <h2>Modificaçãoes futuras</h2>
   ⚠️ Criar um padrão de nome mais claro para as variáveis
  <hr>
