@@ -12,6 +12,10 @@
     font-family: fontSansSerif;
     src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
 }
+@font-face{
+    font-family: fontSerif;
+    src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
 
 @font-face{
     font-family: title;

@@ -1,0 +1,28 @@
+.button{
+    background-color: var(--coloBright);
+    margin: 37px 0px 50px 0px;
+    Width: 161px;
+    Height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, var(--colorDarker)50%, var(--coloBright) 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: 0.3s ease-in-out;
+
+    /*TEXT PROPERTIES*/
+    color:  var(--colorDarker);
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+.button:hover{
+    background-position: 0%;
+    border: 3px solid var(--coloBright);
+    color:var(--coloBright); 
+}

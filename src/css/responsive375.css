@@ -7,18 +7,21 @@
     .master .header{
         padding: 37px 16px 0px 37px;
     }
+    .top{
+        padding-top: 66px;
+        height: 481px;
+        grid-template-columns:1fr 375px 1fr;
+    }
+    .top .center{
+        padding: 0px 16px;
+    }
+    .top .center h1{
+        font-size: 45.5px;
+        line-height: 50px;
+    }
 
 
-
-   /*  *{  
-        max-width: 375px;
-    }
-    .header{
-        padding: 37px 16px;
-    }
-    .header .header-apply-link a{
-        font-size: 16px;
-    }
+   /*  
     .main .hero{
         height: 350px;
         grid-template-columns:0fr 375px 0fr;
