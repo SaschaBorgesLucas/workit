@@ -1,10 +1,12 @@
 .master{
     max-width: 1440px;
     height: 2494px;  
+ 
 }
 .master .header{
     background-color:var(--colorDarker);
-    padding: 57px 165px 0 57px;
+    width: 1440px;
+    padding: 57px 165px 0 165px;
     display: flex;
     justify-content: space-between;  
 } 
@@ -23,15 +25,15 @@
     color: var(--coloBright);
 }
 
-
 .master .top{
-    display: flex;
-    flex-direction: column;
     padding-top: 55px;
-    height: 551px;
+    width: 1440px;
+    max-width: 1440px;
     display: grid;
-    grid-template-areas: "left center right";
-    grid-template-columns:1fr 635px 1fr;
+    grid-template-areas: "left center right"
+                    "ornament ornament ornament";
+    grid-template-columns:405px 630px 405px;
+    grid-template-rows: 530px 100px;
     background-color: var(--colorDarker);
 }
 .master .top .center{
@@ -39,7 +41,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    background-color: var(--colorDarker);
+}
+.master .top .left{
+    grid-area: left;
+    background-color: var(--colorDarker);
+}
+.master .top .left img{
+    position:absolute;
+    top: 116px;
+    left:-138px;
+    clip: rect(auto,auto,auto,138px);
+}
+.master .top .center{
+    grid-area: center;
+    display: flex;
+    flex-direction: column;
 }
 .master .top .center h1{
     font-family: fontSerif;
@@ -52,37 +69,40 @@
 }
 .master .top .center u{
     text-underline-position: under;
-    text-decoration-color: var(--primary-btn-color);
-    text-decoration-thickness:5px;
-}
-.master .btn-learn-more a{
-    color: var(--backgrond-color-top);
-    font-family: texts;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 178%;
+    text-decoration-color: var(--primary-btn-color);   
 }
 .master .top .center img{
-    z-index: 2;
-}
-.master .top .ornament-container{
     position: absolute;
-    top:590px;
-    height:100px;
+    width: 702px;
+    height: 405px;
+    top: 480px;
+    z-index: 1;
+}
+.master .top .right{
+    grid-area: right;
+}
+.master .top .right img{
+    position:absolute;
+    top: 314px;
+    left: 1315px;
+    clip: rect(auto,125px,auto,auto);
+}
+.ornament-container{
+    grid-area: ornament;
     width: 1440px;
-    background-color: var(--colorLighter);
-    z-index: -1;
+    max-width: 1440px;
+    background-color:var(--colorLighter);
+    position: relative;    
 }
 .master .top .ornament-container .ornament#top-ornament{
-    background-color: var(--colorDarker);
-    grid-area: curve;
+    position: absolute;
+    width: 100%;
+    top: -50px;
+    background-color:var(--colorDarker);
     border-radius: 100%;
     height:100px;
-    width: 1440px;
-    clip: rect(50px,auto,auto,auto);  
+    clip: rect(50px,auto,auto,auto); 
 }
-
 
 
 

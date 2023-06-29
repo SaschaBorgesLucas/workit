@@ -1,11 +1,11 @@
 @media(max-width:768px){
     .master{
         width: 768px;
-        height: 2254px;    
-        
+        height: 2254px;       
     }
     .master .header{
-        padding: 37px 39px 0px 37px;
+        width: 768px;
+        padding: 37px 39px 0px 39px;
     }
     .master .header .headerApplyLink a{
         font-size: 16px;
@@ -13,28 +13,46 @@
     }
     .master .top{
         padding-top: 58px;
-        height: 420px;
+        width: 768px;
+        height: 450px;
         grid-template-columns:1fr 500px 1fr;
+        grid-template-rows: 350px 100px;
+    }
+    .master .top .left img{
+        position:absolute;
+        top: 71px;
+        left:-227px;
+        clip: rect(auto,auto,auto,227px);
     }
     .master .top .center h1{
         font-size: 60px;
         line-height: 60px;
     }
-    .master .top .center img{
-        width: 480px;
-        height: 286px;
+    .master .top .center .button{
+        width: 133px;
+        height: 55px;
     }
-    .master .top .ornament-container{
-        top:439px;
-        height:100px;
-        width: 768px;
+    .master .top .center img{
+        position: absolute;
+        width: 470px;
+        height: 271px;
+        top: 389px;
+    }
+    .master .top .right img{
+        position:absolute;
+        top: 250px;
+        left: 675px;
+        clip: rect(auto,93px,auto,auto);
+    }
+    .ornament-container{
+        width:768px;
+        max-width:768px;
     }
     .master .top .ornament-container .ornament#top-ornament{
         height:100px;
         width: 768px;
         border-radius: 80%;
     }
-
 
 
    /*  .header .header-apply-link a{

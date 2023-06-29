@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-underline-position",
+          "text-underline-position: under"
+        ]
+      }
+    ]
+  }
+}
