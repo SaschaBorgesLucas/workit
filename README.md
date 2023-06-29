@@ -22,7 +22,7 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
   <hr>
 
   <h2>Modificaçãoes futuras</h2>
-  ⚠️ Criar um padrão de nome mais claro para as variáveis
+ ⚠️ se fosse um projeto real eu ia pedir para mudar a cor de fundo do mid, em algumas situações a cor é muito fácil de confundir com o branco 
  <hr>
 <ul>
   <li>✔️<b>17/06/2023.1:</b> implementado o header, as variáveis e parte do hero</li>
