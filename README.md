@@ -33,5 +33,9 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
   <li>✔️<b>20/06/2023.2:</b> responsividade do topo resolvida</li>
   <li>✔️<b>20/06/2023.1:</b> trabalhando em alguns bugs</li>
   <li>✔️<b>27/06/2023.1:</b> animação dos botões criada</li>
-  <li>✔️<b>28/06/2023.1:</b> inicio da última refatoração.<br>- Os arquivos de responsividade estavam ficando grandes, e isso tornava chato de fazer a manutenção então dividi em dois arquivos. <br>-Troquei o nome do arquivo CSS responsável pela animação dos botões, para buttons.css como sinto que posso reutilizar estes botões animados em outros projetos, fica mais fácil de identificá-los assim, além disso vai facilitar a manutenção<br>-alguns elementos foram retirados de div desnecessárias</li>
+  <li>✔️<b>28/06/2023.1:</b> inicio da última refatoração.
+  <br>-foi criada a branch revisao, para se algo der muito errado eu não perder meu minimo produto viável
+  <br>- Os arquivos de responsividade estavam ficando grandes, e isso tornava chato de fazer a manutenção então dividi em dois arquivos. 
+  <br>-Troquei o nome do arquivo CSS responsável pela animação dos botões, para buttons.css como sinto que posso reutilizar estes botões animados em outros projetos, fica mais fácil de identificá-los assim, além disso vai facilitar a manutenção
+  <br>-alguns elementos foram retirados de div desnecessárias</li>
 </ul>
