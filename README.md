@@ -40,4 +40,5 @@ Resolvi usar o fontawesome ao invés dos icones das imagens das redes sociais.
   <br>-alguns elementos foram retirados de div desnecessárias
   <br>-todos os elementos estão ganhando alt e aqueles que tem link estão ganhando um link</li>
   <li>✔️<b>29/06/2023.1:</b> inicio refatoração top.
+  <li>✔️<b>29/06/2023.2:</b> fim refatoração top.
 </ul>
