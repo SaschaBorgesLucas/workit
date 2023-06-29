@@ -2,24 +2,37 @@
     .master{
         width: 375px;
         height: 2406px;     
-        background-color: aqua;
     }
     .master .header{
         padding: 37px 16px 0px 37px;
     }
-    .top{
+    .master .top{
         padding-top: 66px;
-        height: 481px;
+        height: 350px;
         grid-template-columns:1fr 375px 1fr;
+   
     }
-    .top .center{
+    .master .top .center{
         padding: 0px 16px;
     }
-    .top .center h1{
+    .master .top .center h1{
         font-size: 45.5px;
         line-height: 50px;
     }
-
+    .master .top .center img{
+        width: 293px;
+        height: 169px;
+    }
+    .master .top .ornament-container{
+        top:369px;
+        height:90px;
+        width: 375px;
+    }
+    .master .top .ornament-container .ornament#top-ornament{
+        height:90px;
+        width: 375px;
+        border-radius: 30%;
+    }
 
    /*  
     .main .hero{

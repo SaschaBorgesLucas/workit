@@ -1,14 +1,10 @@
-
 .master{
     max-width: 1440px;
-    height: 2494px;
-    background-color: aqua;
+    height: 2494px;  
 }
-
 .master .header{
     background-color:var(--colorDarker);
-    padding-bottom:0px;
-    padding: 57px 165px 0px 57px;
+    padding: 57px 165px 0 57px;
     display: flex;
     justify-content: space-between;  
 } 
@@ -27,40 +23,39 @@
     color: var(--coloBright);
 }
 
-.top{
+
+.master .top{
     display: flex;
     flex-direction: column;
-}
-.top{
     padding-top: 55px;
-    height: 730px;
+    height: 551px;
     display: grid;
     grid-template-areas: "left center right";
     grid-template-columns:1fr 635px 1fr;
     background-color: var(--colorDarker);
 }
-.top .center{
+.master .top .center{
     grid-area: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
-.top .center h1{
+.master .top .center h1{
     font-family: fontSerif;
     color: white;
     font-style: normal;
     font-weight: 600;
     font-size: 80px;
     text-align: center;
-    line-height: 80px;
+    line-height: 90px;
 }
-.top .center u{
+.master .top .center u{
     text-underline-position: under;
     text-decoration-color: var(--primary-btn-color);
     text-decoration-thickness:5px;
 }
-.btn-learn-more a{
+.master .btn-learn-more a{
     color: var(--backgrond-color-top);
     font-family: texts;
     font-style: normal;
@@ -68,7 +63,32 @@
     font-size: 18px;
     line-height: 178%;
 }
+.master .top .center img{
+    z-index: 2;
+}
+.master .top .ornament-container{
+    position: absolute;
+    top:590px;
+    height:100px;
+    width: 1440px;
+    background-color: var(--colorLighter);
+    z-index: -1;
+}
+.master .top .ornament-container .ornament#top-ornament{
+    background-color: var(--colorDarker);
+    grid-area: curve;
+    border-radius: 100%;
+    height:100px;
+    width: 1440px;
+    clip: rect(50px,auto,auto,auto);  
+}
 
+
+
+
+
+/*HEADER*/
+/*
 
 
 .top .left{
@@ -79,8 +99,6 @@
     left: -125px;
     position: absolute; 
 }
-/*HEADER*/
-/*
 
 
 .hero .left{
